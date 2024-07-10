@@ -260,6 +260,7 @@ public class NameTags extends Module {
 
                 Render2DEngine.drawRect(context.getMatrices(), tagX - 2, (float) (posY - 13f), textWidth + 4, 11, color);
 
+                /*
                 if (ThunderHack.telemetryManager.getOnlinePlayers().contains(ent.getGameProfile().getName())) {
                     Render2DEngine.drawRect(context.getMatrices(), tagX - 14, (float) (posY - 13f), 12, 11, color.brighter().brighter());
                     RenderSystem.enableBlend();
@@ -271,6 +272,7 @@ public class NameTags extends Module {
                     RenderSystem.setShaderColor(1f, 1f, 1f, 1f);
                     RenderSystem.disableBlend();
                 }
+*/
 
                 OutlineColor cl = ThunderHack.friendManager.isFriend(ent) ? friendOutline.getValue() : outline.getValue();
 

@@ -53,7 +53,7 @@ public class ThunderHack implements ModInitializer {
 
     /*-----------------    Managers  ---------------------*/
     public static NotificationManager notificationManager = new NotificationManager();
-    public static TelemetryManager telemetryManager = new TelemetryManager();
+    //public static TelemetryManager telemetryManager = new TelemetryManager();
     public static WayPointManager wayPointManager = new WayPointManager();
     public static ModuleManager moduleManager = new ModuleManager();
     public static FriendManager friendManager = new FriendManager();
@@ -91,7 +91,6 @@ public class ThunderHack implements ModInitializer {
         EVENT_BUS.subscribe(playerManager);
         EVENT_BUS.subscribe(combatManager);
         EVENT_BUS.subscribe(asyncManager);
-        EVENT_BUS.subscribe(telemetryManager);
         EVENT_BUS.subscribe(core);
 
         FriendManager.loadFriends();

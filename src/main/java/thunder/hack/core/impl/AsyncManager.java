@@ -71,7 +71,7 @@ public class AsyncManager implements IManager {
         public void run() {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
-                    ThunderHack.telemetryManager.onUpdate();
+                    //ThunderHack.telemetryManager.onUpdate();
                     if (!Module.fullNullCheck()) {
                         for (Module module : ThunderHack.moduleManager.modules) {
                             if (module.isEnabled()) {

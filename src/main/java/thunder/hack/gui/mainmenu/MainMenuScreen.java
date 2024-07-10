@@ -97,7 +97,7 @@ public class MainMenuScreen extends Screen {
 
         onlineText:
         {
-            String onlineUsers = String.format("online: %s%s", Formatting.DARK_GREEN, ThunderHack.telemetryManager.getOnlinePlayers().size());
+            String onlineUsers = String.format("online: %s%s", Formatting.DARK_GREEN, "uwu");
 
             FontRenderers.sf_bold.drawCenteredString(context.getMatrices(), onlineUsers, halfOfWidth, halfOfHeight * 2 - 15, Color.GREEN);
 
