@@ -211,8 +211,8 @@ public class ClickGUI extends Screen {
                             "\nMiddle Mouse Click on slider to enter value from keyboard" +
                             "\nDelete + Left Mouse Click on module to reset", 5, mc.getWindow().getScaledHeight() - 80, HudEditor.getColor(0).getRGB());
 
-        if (!HudElement.anyHovered && !ClickGUI.anyHovered)
-            GLFW.glfwSetCursor(mc.getWindow().getHandle(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR));
+        //if (!HudElement.anyHovered && !ClickGUI.anyHovered)
+            //GLFW.glfwSetCursor(mc.getWindow().getHandle(), GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR));
     }
 
     @Override
@@ -268,7 +268,7 @@ public class ClickGUI extends Screen {
             closeDirectionY = 0;
 
             close = true;
-            mc.mouse.lockCursor();
+            //mc.mouse.lockCursor();
 
             closeAnimation = 0;
             if (mc.player != null) {

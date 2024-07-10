@@ -180,13 +180,13 @@ public class ThunderHack implements ModInitializer {
         soundManager.registerSounds();
 
         // TODO Move to dedicated Thread
-        syncVersion();
-        syncContributors();
-        ThunderUtility.parseStarGazer();
-        ThunderUtility.parseCommits();
-        ModuleManager.rpc.startRpc();
+        //syncVersion();
+        //syncContributors();
+        //ThunderUtility.parseStarGazer();
+        //ThunderUtility.parseCommits();
+        //ModuleManager.rpc.startRpc();
 
-        telemetryManager.fetchData();
+        //telemetryManager.fetchData();
 
         LogUtils.getLogger().info("""
                 \n /$$$$$$$$ /$$                                 /$$                     /$$   /$$                     /$$     \s

@@ -43,8 +43,8 @@ public class BooleanElement extends AbstractElement {
         }
 
         if(Render2DEngine.isHovered(mouseX, mouseY, x + width - 21, y + height / 2 - 4, 15, 8)) {
-            GLFW.glfwSetCursor(mc.getWindow().getHandle(),
-                    GLFW.glfwCreateStandardCursor(GLFW.GLFW_HAND_CURSOR));
+            //GLFW.glfwSetCursor(mc.getWindow().getHandle(),
+            //        GLFW.glfwCreateStandardCursor(GLFW.GLFW_HAND_CURSOR));
             ClickGUI.anyHovered = true;
         }
 

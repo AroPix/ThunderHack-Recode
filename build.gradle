@@ -8,9 +8,9 @@ sourceSets {
 		java {
 			exclude 'thunder/hack/gui/mainmenu/**'
 			exclude 'thunder/hack/injection/MixinTitleScreen.java'
-			exclude 'thunder/hack/injection/MixinMultiplayerScreen'
-			exclude 'thunder/hack/injection/MixinTitleScreen'
-			exclude 'thunder/hack/injection/MixinSplashOverlay'
+			exclude 'thunder/hack/injection/MixinMultiplayerScreen.java'
+			exclude 'thunder/hack/injection/MixinTitleScreen.java'
+			exclude 'thunder/hack/injection/MixinSplashOverlay.java'
 		}
 	}
 }
