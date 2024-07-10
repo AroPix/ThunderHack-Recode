@@ -3,6 +3,18 @@ plugins {
 	id 'maven-publish'
 }
 
+sourceSets {
+	main {
+		java {
+			exclude 'thunder/hack/gui/mainmenu/**'
+			exclude 'thunder/hack/injection/MixinTitleScreen.java'
+			exclude 'thunder/hack/injection/MixinMultiplayerScreen'
+			exclude 'thunder/hack/injection/MixinTitleScreen'
+			exclude 'thunder/hack/injection/MixinSplashOverlay'
+		}
+	}
+}
+
 sourceCompatibility = JavaVersion.VERSION_21
 targetCompatibility = JavaVersion.VERSION_21
 
